@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int main(){
 
     //Shopping cart program
@@ -20,6 +19,8 @@ int main(){
     scanf("%d", &quantity);
 
     total = price * quantity;
+
+    printf("You have bought %d %s\n",quantity,item);
 
     printf("Your total price is: %c%.2f",currency, total);
 
